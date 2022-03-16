@@ -1,3 +1,7 @@
+variable "test" {
+  type    = bool
+  default = true
+}
 resource "random_string" "random" {
   length  = 20
   special = false
