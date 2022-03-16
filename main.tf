@@ -1,9 +1,9 @@
 variable "test" {
-  type    = bool
-  default = true
+  type    = number
+  default = 21
 }
 resource "random_string" "random" {
-  length  = 20
+  length  = var.test
   special = false
 }
 
