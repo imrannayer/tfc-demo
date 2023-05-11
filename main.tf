@@ -14,7 +14,7 @@ terraform {
 
 resource "google_storage_bucket" "my_bucket" {
   project                     = "mysintest"
-  name                        = "my-tf122226565test
+  name                        = "my-tf122226565test"
   location                    = "US"
   force_destroy               = true
   uniform_bucket_level_access = true
